@@ -1,0 +1,15 @@
+.daily-feeling--missing {
+  background-color: grey;
+}
+
+.daily-feeling--good {
+  background-color: green;
+}
+
+.daily-feeling--bad {
+  background-color: red;
+}
+
+.daily-feeling--neutral {
+  background-color: yellow;
+}
