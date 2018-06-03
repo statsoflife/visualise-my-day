@@ -1,28 +1,69 @@
-.App {
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visualise-data {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
+.visualise-data header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  padding: 14px;
   color: white;
 }
 
-.App-title {
+.visualise-data header h1 {
+  margin-top: 0;
+}
+
+.visualise-data header h1 {
   font-size: 1.5em;
 }
 
-.App-intro {
-  font-size: large;
+.visualise-data__header__date-selection button {
+  margin: 0 5px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.visualise-data__header__date-selection__date-picker {
+  display: inline-block;
+}
+
+.visualise-data__content h3 {
+  margin: 0;
+}
+
+.visualise-data__content h4 {
+  margin-bottom: 0;
+}
+
+.visualise-data__daily-feeling {
+  position: absolute;
+  top: 1em;
+}
+
+.visualise-data__fitbit {
+  min-height: 540px;
+}
+
+.netflix-viewing {
+  border-bottom: 1px dashed #000;
+  padding: 0.5em;
+  height: 80px;
+  overflow-y: scroll;
+}
+
+.visualise-data__timeline,
+.visualise-data__fitbit {
+  display: flex;
+  border-bottom: 1px dashed #000;
+  padding: 0.5em;
+}
+
+.visualise-data__timeline__map,
+.visualise-data__timeline__summary,
+.visualise-data__fitbit__step-graph,
+.visualise-data__fitbit__heart-graph {
+  width: 50%;
 }

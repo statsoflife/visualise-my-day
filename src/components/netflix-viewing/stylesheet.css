@@ -1,0 +1,11 @@
+.netflix-viewing__list__viewed-item {
+  line-height: 1em;
+}
+
+.netflix-viewing__list__viewed-item--active {
+  background-color: #ffff46;
+}
+
+.netflix-viewing__list__viewed-item--mismatch {
+  text-decoration: line-through;
+}

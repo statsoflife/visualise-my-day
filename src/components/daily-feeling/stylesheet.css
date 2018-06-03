@@ -1,15 +1,29 @@
+.daily-feeling {
+  border-radius: 3px;
+  font-size: 2.5em;
+  padding: 0.3em 0.3em 0.2em 0.3em;
+  line-height: 1em;
+}
+
 .daily-feeling--missing {
   background-color: grey;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.3em 0.5em;
 }
 
 .daily-feeling--good {
-  background-color: green;
+  background-color: #ADC964;
 }
 
 .daily-feeling--bad {
-  background-color: red;
+  background-color: #e84727;
 }
 
 .daily-feeling--neutral {
-  background-color: yellow;
+  background-color: #fbe33e;
+}
+
+.daily-feeling--unknown {
+  background-color: #91d7c4;
 }

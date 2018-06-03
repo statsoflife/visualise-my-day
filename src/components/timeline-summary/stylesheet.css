@@ -1,0 +1,7 @@
+.timeline-summary__places__place {
+  line-height: 1em;
+}
+
+.timeline-summary__places__place--active {
+  background-color: #ffff46;
+}

@@ -1,0 +1,7 @@
+.maps-timeline__loading {
+  background-color: rgba(255,255,255,0.8);
+  padding: 5em 0;
+  position: absolute;
+  width: 50%;
+  z-index: 10;
+}
